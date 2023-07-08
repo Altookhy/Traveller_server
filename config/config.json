@@ -1,27 +1,27 @@
 {
   "development": {
     "username": "doadmin",
-    "password": "AVNS_Cajd_g7oHOCHxG8oEyD",
+    "password": "AVNS_5RRqOMd26wU-_hhVKjD",
     "database": "defaultdb",
-    "host": "fyp2-do-user-14223502-0.b.db.ondigitalocean.com",
+    "host": "travellerdatabase-do-user-14223502-0.b.db.ondigitalocean.com",
     "dialect": "mysql",
     "port" : "25060",
     "sslmode" : "REQUIRED"
   },
   "test": {
     "username": "doadmin",
-    "password": "AVNS_Cajd_g7oHOCHxG8oEyD",
+    "password": "AVNS_5RRqOMd26wU-_hhVKjD",
     "database": "defaultdb",
-    "host": "fyp2-do-user-14223502-0.b.db.ondigitalocean.com",
+    "host": "travellerdatabase-do-user-14223502-0.b.db.ondigitalocean.com",
     "dialect": "mysql",
     "port" : "25060",
     "sslmode" : "REQUIRED"
   },
   "production": {
     "username": "doadmin",
-    "password": "AVNS_Cajd_g7oHOCHxG8oEyD",
+    "password": "AVNS_5RRqOMd26wU-_hhVKjD",
     "database": "defaultdb",
-    "host": "fyp2-do-user-14223502-0.b.db.ondigitalocean.com",
+    "host": "travellerdatabase-do-user-14223502-0.b.db.ondigitalocean.com",
     "dialect": "mysql",
     "port" : "25060",
     "sslmode" : "REQUIRED"
