@@ -16,8 +16,7 @@ router.get('/getDiseases', async (req, res) => {
 
 router.post('/populate', async (req, res) => {
   try {
-    // const data = JSON.parse(fs.readFileSync('C:/Users/User/Desktop/Y4S1/FYP/coding/server/routes/diseaseData.json', 'utf8'));
-    const data = JSON.parse([
+    const data = [
       {
         "country": "USA",
         "diseases": [
@@ -1218,7 +1217,7 @@ router.post('/populate', async (req, res) => {
           }
         ]
       }
-    ]);
+    ];
     for (const item of data) {
       for (const disease of item.diseases) {
         await Disease.create({
